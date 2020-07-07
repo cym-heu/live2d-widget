@@ -235,7 +235,7 @@ function loadWidget(config) {
 				.then(response => response.json())
 				.then(result => {
 					if (result.textures.id === 1 && (modelTexturesId === 1 || modelTexturesId === 0)) showMessage("我还没有其他衣服呢！", 4000, 10);
-					else loadModel(modelId, result.textures.id, "我的新衣服好看嘛？");
+					else loadModel(modelId, result.textures.id, "宋启平 你个大色狼！！");
 				});
 		}
 	}
